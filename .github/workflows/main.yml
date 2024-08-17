@@ -18,6 +18,9 @@ jobs:
 
       - name: Run shell script
         run: |
+          mkdir abc 
+          mkdir def
           chmod +x 777 Automated_Backup.sh
+          ./Automated_Backup abc def
           
           
